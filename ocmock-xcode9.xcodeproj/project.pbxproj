@@ -42,6 +42,7 @@
 		E146955C1EEA9A5100167DDA /* Thing+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Thing+CoreDataClass.m"; sourceTree = "<group>"; };
 		E146955D1EEA9A5100167DDA /* Thing+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Thing+CoreDataProperties.h"; sourceTree = "<group>"; };
 		E146955E1EEA9A5100167DDA /* Thing+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Thing+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E14695611EEA9B8900167DDA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E17E434C1EEA94CF004B9546 /* ocmock-xcode9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ocmock-xcode9.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17E434F1EEA94CF004B9546 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E17E43501EEA94CF004B9546 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,6 +102,7 @@
 		E17E43431EEA94CF004B9546 = {
 			isa = PBXGroup;
 			children = (
+				E14695611EEA9B8900167DDA /* README.md */,
 				E17E434E1EEA94CF004B9546 /* ocmock-xcode9 */,
 				E1847A7D1EEA97A70035D45F /* ocmock-xcode9-test */,
 				E17E434D1EEA94CF004B9546 /* Products */,
