@@ -1,9 +1,8 @@
 //
 //  Thing+CoreDataProperties.h
-//  ocmock-xcode9
+//  
 //
 //  Created by Jorge Bernal Ordovas on 09/06/2017.
-//  Copyright © 2017 Jorge Bernal. All rights reserved.
 //
 //
 
@@ -16,8 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSFetchRequest<Thing *> *)fetchRequest;
 
-@property (nullable, nonatomic, copy) NSString *name;
 @property (nullable, nonatomic, copy) NSDate *date;
+@property (nullable, nonatomic, copy) NSString *name;
 
 @end
 

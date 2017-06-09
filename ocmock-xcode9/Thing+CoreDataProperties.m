@@ -1,9 +1,8 @@
 //
 //  Thing+CoreDataProperties.m
-//  ocmock-xcode9
+//  
 //
 //  Created by Jorge Bernal Ordovas on 09/06/2017.
-//  Copyright © 2017 Jorge Bernal. All rights reserved.
 //
 //
 
@@ -15,7 +14,7 @@
 	return [[NSFetchRequest alloc] initWithEntityName:@"Thing"];
 }
 
-@dynamic name;
 @dynamic date;
+@dynamic name;
 
 @end

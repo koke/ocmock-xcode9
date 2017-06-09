@@ -7,6 +7,8 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <OCMock/OCMock.h>
+#import "Thing+CoreDataClass.h"
 
 @interface ocmock_xcode9_test : XCTestCase
 
@@ -25,6 +27,8 @@
 }
 
 - (void)testExample {
+    Thing *thing = OCMStrictClassMock([Thing class]);
+    XCTAssertNotNil(thing);
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
 }

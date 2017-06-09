@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1267548102C7D1842229874D /* libPods-ocmock-xcode9-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A10503AE43D96BC32964FB /* libPods-ocmock-xcode9-test.a */; };
 		2D56E3235B7484BB6C369C65 /* libPods-ocmock-xcode9.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EB3436998F419F5D36B573 /* libPods-ocmock-xcode9.a */; };
+		E146955F1EEA9A5100167DDA /* Thing+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E146955C1EEA9A5100167DDA /* Thing+CoreDataClass.m */; };
+		E14695601EEA9A5100167DDA /* Thing+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E146955E1EEA9A5100167DDA /* Thing+CoreDataProperties.m */; };
 		E17E43511EEA94CF004B9546 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E17E43501EEA94CF004B9546 /* AppDelegate.m */; };
 		E17E43541EEA94CF004B9546 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17E43531EEA94CF004B9546 /* ViewController.m */; };
 		E17E43571EEA94CF004B9546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17E43551EEA94CF004B9546 /* Main.storyboard */; };
@@ -17,8 +19,6 @@
 		E17E435F1EEA94CF004B9546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17E435D1EEA94CF004B9546 /* LaunchScreen.storyboard */; };
 		E17E43621EEA94CF004B9546 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E17E43611EEA94CF004B9546 /* main.m */; };
 		E1847A7F1EEA97A70035D45F /* ocmock_xcode9_test.m in Sources */ = {isa = PBXBuildFile; fileRef = E1847A7E1EEA97A70035D45F /* ocmock_xcode9_test.m */; };
-		E1847A8A1EEA97E50035D45F /* Thing+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E1847A871EEA97E50035D45F /* Thing+CoreDataClass.m */; };
-		E1847A8B1EEA97E50035D45F /* Thing+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E1847A891EEA97E50035D45F /* Thing+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,10 @@
 		9C38FCC27267B4C6769EB12A /* Pods-ocmock-xcode9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ocmock-xcode9.release.xcconfig"; path = "Pods/Target Support Files/Pods-ocmock-xcode9/Pods-ocmock-xcode9.release.xcconfig"; sourceTree = "<group>"; };
 		A86B458247B0F7524B93816B /* Pods-ocmock-xcode9-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ocmock-xcode9-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-ocmock-xcode9-test/Pods-ocmock-xcode9-test.release.xcconfig"; sourceTree = "<group>"; };
 		D8A10503AE43D96BC32964FB /* libPods-ocmock-xcode9-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ocmock-xcode9-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E146955B1EEA9A5100167DDA /* Thing+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Thing+CoreDataClass.h"; sourceTree = "<group>"; };
+		E146955C1EEA9A5100167DDA /* Thing+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Thing+CoreDataClass.m"; sourceTree = "<group>"; };
+		E146955D1EEA9A5100167DDA /* Thing+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Thing+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E146955E1EEA9A5100167DDA /* Thing+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Thing+CoreDataProperties.m"; sourceTree = "<group>"; };
 		E17E434C1EEA94CF004B9546 /* ocmock-xcode9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ocmock-xcode9.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17E434F1EEA94CF004B9546 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E17E43501EEA94CF004B9546 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,10 +56,6 @@
 		E1847A7C1EEA97A70035D45F /* ocmock-xcode9-test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ocmock-xcode9-test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1847A7E1EEA97A70035D45F /* ocmock_xcode9_test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ocmock_xcode9_test.m; sourceTree = "<group>"; };
 		E1847A801EEA97A70035D45F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1847A861EEA97E50035D45F /* Thing+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Thing+CoreDataClass.h"; path = "ocmock-xcode9/Thing+CoreDataClass.h"; sourceTree = "<group>"; };
-		E1847A871EEA97E50035D45F /* Thing+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Thing+CoreDataClass.m"; path = "ocmock-xcode9/Thing+CoreDataClass.m"; sourceTree = "<group>"; };
-		E1847A881EEA97E50035D45F /* Thing+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Thing+CoreDataProperties.h"; path = "ocmock-xcode9/Thing+CoreDataProperties.h"; sourceTree = "<group>"; };
-		E1847A891EEA97E50035D45F /* Thing+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Thing+CoreDataProperties.m"; path = "ocmock-xcode9/Thing+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +101,6 @@
 		E17E43431EEA94CF004B9546 = {
 			isa = PBXGroup;
 			children = (
-				E1847A861EEA97E50035D45F /* Thing+CoreDataClass.h */,
-				E1847A871EEA97E50035D45F /* Thing+CoreDataClass.m */,
-				E1847A881EEA97E50035D45F /* Thing+CoreDataProperties.h */,
-				E1847A891EEA97E50035D45F /* Thing+CoreDataProperties.m */,
 				E17E434E1EEA94CF004B9546 /* ocmock-xcode9 */,
 				E1847A7D1EEA97A70035D45F /* ocmock-xcode9-test */,
 				E17E434D1EEA94CF004B9546 /* Products */,
@@ -125,6 +121,10 @@
 		E17E434E1EEA94CF004B9546 /* ocmock-xcode9 */ = {
 			isa = PBXGroup;
 			children = (
+				E146955B1EEA9A5100167DDA /* Thing+CoreDataClass.h */,
+				E146955C1EEA9A5100167DDA /* Thing+CoreDataClass.m */,
+				E146955D1EEA9A5100167DDA /* Thing+CoreDataProperties.h */,
+				E146955E1EEA9A5100167DDA /* Thing+CoreDataProperties.m */,
 				E17E434F1EEA94CF004B9546 /* AppDelegate.h */,
 				E17E43501EEA94CF004B9546 /* AppDelegate.m */,
 				E17E43521EEA94CF004B9546 /* ViewController.h */,
@@ -348,8 +348,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E17E435A1EEA94CF004B9546 /* ocmock_xcode9.xcdatamodeld in Sources */,
-				E1847A8A1EEA97E50035D45F /* Thing+CoreDataClass.m in Sources */,
-				E1847A8B1EEA97E50035D45F /* Thing+CoreDataProperties.m in Sources */,
+				E146955F1EEA9A5100167DDA /* Thing+CoreDataClass.m in Sources */,
+				E14695601EEA9A5100167DDA /* Thing+CoreDataProperties.m in Sources */,
 				E17E43541EEA94CF004B9546 /* ViewController.m in Sources */,
 				E17E43621EEA94CF004B9546 /* main.m in Sources */,
 				E17E43511EEA94CF004B9546 /* AppDelegate.m in Sources */,
@@ -580,6 +580,7 @@
 				E1847A841EEA97A70035D45F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
