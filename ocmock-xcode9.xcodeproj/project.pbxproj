@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1267548102C7D1842229874D /* libPods-ocmock-xcode9-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A10503AE43D96BC32964FB /* libPods-ocmock-xcode9-test.a */; };
+		2D56E3235B7484BB6C369C65 /* libPods-ocmock-xcode9.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EB3436998F419F5D36B573 /* libPods-ocmock-xcode9.a */; };
 		E17E43511EEA94CF004B9546 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E17E43501EEA94CF004B9546 /* AppDelegate.m */; };
 		E17E43541EEA94CF004B9546 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17E43531EEA94CF004B9546 /* ViewController.m */; };
 		E17E43571EEA94CF004B9546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17E43551EEA94CF004B9546 /* Main.storyboard */; };
@@ -14,9 +16,28 @@
 		E17E435C1EEA94CF004B9546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17E435B1EEA94CF004B9546 /* Assets.xcassets */; };
 		E17E435F1EEA94CF004B9546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17E435D1EEA94CF004B9546 /* LaunchScreen.storyboard */; };
 		E17E43621EEA94CF004B9546 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E17E43611EEA94CF004B9546 /* main.m */; };
+		E1847A7F1EEA97A70035D45F /* ocmock_xcode9_test.m in Sources */ = {isa = PBXBuildFile; fileRef = E1847A7E1EEA97A70035D45F /* ocmock_xcode9_test.m */; };
+		E1847A8A1EEA97E50035D45F /* Thing+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E1847A871EEA97E50035D45F /* Thing+CoreDataClass.m */; };
+		E1847A8B1EEA97E50035D45F /* Thing+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E1847A891EEA97E50035D45F /* Thing+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E1847A811EEA97A70035D45F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E17E43441EEA94CF004B9546 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E17E434B1EEA94CF004B9546;
+			remoteInfo = "ocmock-xcode9";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		05EB3436998F419F5D36B573 /* libPods-ocmock-xcode9.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ocmock-xcode9.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FDD522CF9761E05195846CB /* Pods-ocmock-xcode9-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ocmock-xcode9-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ocmock-xcode9-test/Pods-ocmock-xcode9-test.debug.xcconfig"; sourceTree = "<group>"; };
+		65C9D9E7DA9BDBF07B82C7EA /* Pods-ocmock-xcode9.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ocmock-xcode9.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ocmock-xcode9/Pods-ocmock-xcode9.debug.xcconfig"; sourceTree = "<group>"; };
+		9C38FCC27267B4C6769EB12A /* Pods-ocmock-xcode9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ocmock-xcode9.release.xcconfig"; path = "Pods/Target Support Files/Pods-ocmock-xcode9/Pods-ocmock-xcode9.release.xcconfig"; sourceTree = "<group>"; };
+		A86B458247B0F7524B93816B /* Pods-ocmock-xcode9-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ocmock-xcode9-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-ocmock-xcode9-test/Pods-ocmock-xcode9-test.release.xcconfig"; sourceTree = "<group>"; };
+		D8A10503AE43D96BC32964FB /* libPods-ocmock-xcode9-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ocmock-xcode9-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17E434C1EEA94CF004B9546 /* ocmock-xcode9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ocmock-xcode9.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17E434F1EEA94CF004B9546 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E17E43501EEA94CF004B9546 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,6 +49,13 @@
 		E17E435E1EEA94CF004B9546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E17E43601EEA94CF004B9546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E17E43611EEA94CF004B9546 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1847A7C1EEA97A70035D45F /* ocmock-xcode9-test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ocmock-xcode9-test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1847A7E1EEA97A70035D45F /* ocmock_xcode9_test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ocmock_xcode9_test.m; sourceTree = "<group>"; };
+		E1847A801EEA97A70035D45F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1847A861EEA97E50035D45F /* Thing+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Thing+CoreDataClass.h"; path = "ocmock-xcode9/Thing+CoreDataClass.h"; sourceTree = "<group>"; };
+		E1847A871EEA97E50035D45F /* Thing+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Thing+CoreDataClass.m"; path = "ocmock-xcode9/Thing+CoreDataClass.m"; sourceTree = "<group>"; };
+		E1847A881EEA97E50035D45F /* Thing+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Thing+CoreDataProperties.h"; path = "ocmock-xcode9/Thing+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E1847A891EEA97E50035D45F /* Thing+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Thing+CoreDataProperties.m"; path = "ocmock-xcode9/Thing+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +63,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D56E3235B7484BB6C369C65 /* libPods-ocmock-xcode9.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1847A791EEA97A70035D45F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1267548102C7D1842229874D /* libPods-ocmock-xcode9-test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22993ACAE28B73F8454534E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05EB3436998F419F5D36B573 /* libPods-ocmock-xcode9.a */,
+				D8A10503AE43D96BC32964FB /* libPods-ocmock-xcode9-test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8309B7277333D2FF99EF4C7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65C9D9E7DA9BDBF07B82C7EA /* Pods-ocmock-xcode9.debug.xcconfig */,
+				9C38FCC27267B4C6769EB12A /* Pods-ocmock-xcode9.release.xcconfig */,
+				4FDD522CF9761E05195846CB /* Pods-ocmock-xcode9-test.debug.xcconfig */,
+				A86B458247B0F7524B93816B /* Pods-ocmock-xcode9-test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E17E43431EEA94CF004B9546 = {
 			isa = PBXGroup;
 			children = (
+				E1847A861EEA97E50035D45F /* Thing+CoreDataClass.h */,
+				E1847A871EEA97E50035D45F /* Thing+CoreDataClass.m */,
+				E1847A881EEA97E50035D45F /* Thing+CoreDataProperties.h */,
+				E1847A891EEA97E50035D45F /* Thing+CoreDataProperties.m */,
 				E17E434E1EEA94CF004B9546 /* ocmock-xcode9 */,
+				E1847A7D1EEA97A70035D45F /* ocmock-xcode9-test */,
 				E17E434D1EEA94CF004B9546 /* Products */,
+				8309B7277333D2FF99EF4C7B /* Pods */,
+				22993ACAE28B73F8454534E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				E17E434C1EEA94CF004B9546 /* ocmock-xcode9.app */,
+				E1847A7C1EEA97A70035D45F /* ocmock-xcode9-test.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,6 +139,15 @@
 			path = "ocmock-xcode9";
 			sourceTree = "<group>";
 		};
+		E1847A7D1EEA97A70035D45F /* ocmock-xcode9-test */ = {
+			isa = PBXGroup;
+			children = (
+				E1847A7E1EEA97A70035D45F /* ocmock_xcode9_test.m */,
+				E1847A801EEA97A70035D45F /* Info.plist */,
+			);
+			path = "ocmock-xcode9-test";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -81,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E17E43651EEA94CF004B9546 /* Build configuration list for PBXNativeTarget "ocmock-xcode9" */;
 			buildPhases = (
+				7A83A510DE55C593FF510C88 /* [CP] Check Pods Manifest.lock */,
 				E17E43481EEA94CF004B9546 /* Sources */,
 				E17E43491EEA94CF004B9546 /* Frameworks */,
 				E17E434A1EEA94CF004B9546 /* Resources */,
+				92DB23ADD7E384141B2B5E3A /* [CP] Embed Pods Frameworks */,
+				8084089E56E99CA832BEEDEE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -93,6 +170,27 @@
 			productName = "ocmock-xcode9";
 			productReference = E17E434C1EEA94CF004B9546 /* ocmock-xcode9.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E1847A7B1EEA97A70035D45F /* ocmock-xcode9-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1847A851EEA97A70035D45F /* Build configuration list for PBXNativeTarget "ocmock-xcode9-test" */;
+			buildPhases = (
+				0D3C14D58E3E16E01EC3DD64 /* [CP] Check Pods Manifest.lock */,
+				E1847A781EEA97A70035D45F /* Sources */,
+				E1847A791EEA97A70035D45F /* Frameworks */,
+				E1847A7A1EEA97A70035D45F /* Resources */,
+				BC1C2E595324A8632399F554 /* [CP] Embed Pods Frameworks */,
+				494F1366722BF8007230FBF3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1847A821EEA97A70035D45F /* PBXTargetDependency */,
+			);
+			name = "ocmock-xcode9-test";
+			productName = "ocmock-xcode9-test";
+			productReference = E1847A7C1EEA97A70035D45F /* ocmock-xcode9-test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -105,6 +203,10 @@
 				TargetAttributes = {
 					E17E434B1EEA94CF004B9546 = {
 						CreatedOnToolsVersion = 9.0;
+					};
+					E1847A7B1EEA97A70035D45F = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = E17E434B1EEA94CF004B9546;
 					};
 				};
 			};
@@ -122,6 +224,7 @@
 			projectRoot = "";
 			targets = (
 				E17E434B1EEA94CF004B9546 /* ocmock-xcode9 */,
+				E1847A7B1EEA97A70035D45F /* ocmock-xcode9-test */,
 			);
 		};
 /* End PBXProject section */
@@ -137,7 +240,107 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1847A7A1EEA97A70035D45F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D3C14D58E3E16E01EC3DD64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		494F1366722BF8007230FBF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ocmock-xcode9-test/Pods-ocmock-xcode9-test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A83A510DE55C593FF510C88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8084089E56E99CA832BEEDEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ocmock-xcode9/Pods-ocmock-xcode9-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92DB23ADD7E384141B2B5E3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ocmock-xcode9/Pods-ocmock-xcode9-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC1C2E595324A8632399F554 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ocmock-xcode9-test/Pods-ocmock-xcode9-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E17E43481EEA94CF004B9546 /* Sources */ = {
@@ -145,13 +348,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				E17E435A1EEA94CF004B9546 /* ocmock_xcode9.xcdatamodeld in Sources */,
+				E1847A8A1EEA97E50035D45F /* Thing+CoreDataClass.m in Sources */,
+				E1847A8B1EEA97E50035D45F /* Thing+CoreDataProperties.m in Sources */,
 				E17E43541EEA94CF004B9546 /* ViewController.m in Sources */,
 				E17E43621EEA94CF004B9546 /* main.m in Sources */,
 				E17E43511EEA94CF004B9546 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1847A781EEA97A70035D45F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1847A7F1EEA97A70035D45F /* ocmock_xcode9_test.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1847A821EEA97A70035D45F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E17E434B1EEA94CF004B9546 /* ocmock-xcode9 */;
+			targetProxy = E1847A811EEA97A70035D45F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E17E43551EEA94CF004B9546 /* Main.storyboard */ = {
@@ -275,6 +496,7 @@
 		};
 		E17E43661EEA94CF004B9546 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65C9D9E7DA9BDBF07B82C7EA /* Pods-ocmock-xcode9.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HLSVBKU65S;
@@ -288,6 +510,7 @@
 		};
 		E17E43671EEA94CF004B9546 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C38FCC27267B4C6769EB12A /* Pods-ocmock-xcode9.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HLSVBKU65S;
@@ -296,6 +519,36 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "me.koke.ocmock-xcode9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1847A831EEA97A70035D45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FDD522CF9761E05195846CB /* Pods-ocmock-xcode9-test.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HLSVBKU65S;
+				INFOPLIST_FILE = "ocmock-xcode9-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.koke.ocmock-xcode9-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ocmock-xcode9.app/ocmock-xcode9";
+			};
+			name = Debug;
+		};
+		E1847A841EEA97A70035D45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A86B458247B0F7524B93816B /* Pods-ocmock-xcode9-test.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HLSVBKU65S;
+				INFOPLIST_FILE = "ocmock-xcode9-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.koke.ocmock-xcode9-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ocmock-xcode9.app/ocmock-xcode9";
 			};
 			name = Release;
 		};
@@ -316,6 +569,15 @@
 			buildConfigurations = (
 				E17E43661EEA94CF004B9546 /* Debug */,
 				E17E43671EEA94CF004B9546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1847A851EEA97A70035D45F /* Build configuration list for PBXNativeTarget "ocmock-xcode9-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1847A831EEA97A70035D45F /* Debug */,
+				E1847A841EEA97A70035D45F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
