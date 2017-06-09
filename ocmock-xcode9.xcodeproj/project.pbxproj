@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E17E43511EEA94CF004B9546 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E17E43501EEA94CF004B9546 /* AppDelegate.m */; };
+		E17E43541EEA94CF004B9546 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17E43531EEA94CF004B9546 /* ViewController.m */; };
+		E17E43571EEA94CF004B9546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17E43551EEA94CF004B9546 /* Main.storyboard */; };
+		E17E435A1EEA94CF004B9546 /* ocmock_xcode9.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E17E43581EEA94CF004B9546 /* ocmock_xcode9.xcdatamodeld */; };
+		E17E435C1EEA94CF004B9546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17E435B1EEA94CF004B9546 /* Assets.xcassets */; };
+		E17E435F1EEA94CF004B9546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17E435D1EEA94CF004B9546 /* LaunchScreen.storyboard */; };
+		E17E43621EEA94CF004B9546 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E17E43611EEA94CF004B9546 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E17E434C1EEA94CF004B9546 /* ocmock-xcode9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ocmock-xcode9.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17E434F1EEA94CF004B9546 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E17E43501EEA94CF004B9546 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E17E43521EEA94CF004B9546 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E17E43531EEA94CF004B9546 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E17E43561EEA94CF004B9546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E17E43591EEA94CF004B9546 /* ocmock_xcode9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ocmock_xcode9.xcdatamodel; sourceTree = "<group>"; };
+		E17E435B1EEA94CF004B9546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E17E435E1EEA94CF004B9546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E17E43601EEA94CF004B9546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E17E43611EEA94CF004B9546 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E17E43491EEA94CF004B9546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E17E43431EEA94CF004B9546 = {
+			isa = PBXGroup;
+			children = (
+				E17E434E1EEA94CF004B9546 /* ocmock-xcode9 */,
+				E17E434D1EEA94CF004B9546 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E17E434D1EEA94CF004B9546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E17E434C1EEA94CF004B9546 /* ocmock-xcode9.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E17E434E1EEA94CF004B9546 /* ocmock-xcode9 */ = {
+			isa = PBXGroup;
+			children = (
+				E17E434F1EEA94CF004B9546 /* AppDelegate.h */,
+				E17E43501EEA94CF004B9546 /* AppDelegate.m */,
+				E17E43521EEA94CF004B9546 /* ViewController.h */,
+				E17E43531EEA94CF004B9546 /* ViewController.m */,
+				E17E43551EEA94CF004B9546 /* Main.storyboard */,
+				E17E435B1EEA94CF004B9546 /* Assets.xcassets */,
+				E17E435D1EEA94CF004B9546 /* LaunchScreen.storyboard */,
+				E17E43601EEA94CF004B9546 /* Info.plist */,
+				E17E43611EEA94CF004B9546 /* main.m */,
+				E17E43581EEA94CF004B9546 /* ocmock_xcode9.xcdatamodeld */,
+			);
+			path = "ocmock-xcode9";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E17E434B1EEA94CF004B9546 /* ocmock-xcode9 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17E43651EEA94CF004B9546 /* Build configuration list for PBXNativeTarget "ocmock-xcode9" */;
+			buildPhases = (
+				E17E43481EEA94CF004B9546 /* Sources */,
+				E17E43491EEA94CF004B9546 /* Frameworks */,
+				E17E434A1EEA94CF004B9546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ocmock-xcode9";
+			productName = "ocmock-xcode9";
+			productReference = E17E434C1EEA94CF004B9546 /* ocmock-xcode9.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E17E43441EEA94CF004B9546 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Jorge Bernal";
+				TargetAttributes = {
+					E17E434B1EEA94CF004B9546 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = E17E43471EEA94CF004B9546 /* Build configuration list for PBXProject "ocmock-xcode9" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E17E43431EEA94CF004B9546;
+			productRefGroup = E17E434D1EEA94CF004B9546 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E17E434B1EEA94CF004B9546 /* ocmock-xcode9 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E17E434A1EEA94CF004B9546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17E435F1EEA94CF004B9546 /* LaunchScreen.storyboard in Resources */,
+				E17E435C1EEA94CF004B9546 /* Assets.xcassets in Resources */,
+				E17E43571EEA94CF004B9546 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E17E43481EEA94CF004B9546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17E435A1EEA94CF004B9546 /* ocmock_xcode9.xcdatamodeld in Sources */,
+				E17E43541EEA94CF004B9546 /* ViewController.m in Sources */,
+				E17E43621EEA94CF004B9546 /* main.m in Sources */,
+				E17E43511EEA94CF004B9546 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E17E43551EEA94CF004B9546 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E17E43561EEA94CF004B9546 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E17E435D1EEA94CF004B9546 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E17E435E1EEA94CF004B9546 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E17E43631EEA94CF004B9546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E17E43641EEA94CF004B9546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E17E43661EEA94CF004B9546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HLSVBKU65S;
+				INFOPLIST_FILE = "ocmock-xcode9/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.koke.ocmock-xcode9";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E17E43671EEA94CF004B9546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HLSVBKU65S;
+				INFOPLIST_FILE = "ocmock-xcode9/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.koke.ocmock-xcode9";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E17E43471EEA94CF004B9546 /* Build configuration list for PBXProject "ocmock-xcode9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17E43631EEA94CF004B9546 /* Debug */,
+				E17E43641EEA94CF004B9546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E17E43651EEA94CF004B9546 /* Build configuration list for PBXNativeTarget "ocmock-xcode9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17E43661EEA94CF004B9546 /* Debug */,
+				E17E43671EEA94CF004B9546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E17E43581EEA94CF004B9546 /* ocmock_xcode9.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E17E43591EEA94CF004B9546 /* ocmock_xcode9.xcdatamodel */,
+			);
+			currentVersion = E17E43591EEA94CF004B9546 /* ocmock_xcode9.xcdatamodel */;
+			path = ocmock_xcode9.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E17E43441EEA94CF004B9546 /* Project object */;
+}
